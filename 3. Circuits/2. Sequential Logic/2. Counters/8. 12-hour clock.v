@@ -33,7 +33,7 @@ module top_module(
     	else if(hh ==  8'h11 && mm == 8'h59 && ss == 8'h59)
         	pm = ~pm;
     end
-   // assign pm=mm[7:4]==5 && mm[3:0]==9 && ss[7:4]==5 && ss[3:0]==9 && hh[3:0]==2 && hh
+   
 endmodule
 
 module BCDms1(input clk,input reset,input ena,output [3:0] q);
